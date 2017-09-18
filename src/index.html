@@ -8,19 +8,60 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <link href="narrow-jumbotron.css" rel="stylesheet">
   </head>
   <body>
     <div class="container">
-      <div class="card">
-        <div class="card-header">
-          Coming Soon
+      <div class="header clearfix">
+        <nav>
+          <ul class="nav nav-pills float-right">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Home<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.linkedin.com/in/nourkhattab/">LinkedIn</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://github.com/nourhkhattab">GitHub</a>
+            </li>
+          </ul>
+        </nav>
+        <h3 class="text-muted">Nour Khattab</h3>
+      </div>
+
+      <div class="jumbotron">
+        <h1 class="display-3">Work In Progress</h1>
+        <p class="lead">I swear I'll get to this someday</p>
+      </div>
+
+      <div class="row projects">
+        <div class="col-lg-6">
+          <div class="card">
+            <h4 class="card-header">Ontario Alcohol Database</h4>
+            <div class="card-body">
+              <p class="card-text">When you low on cash but tryna get lit in Ontario.</p>
+              <br />
+              <a class="btn btn-sm btn-danger" href="http://getmedrunk.nourkhattab.com" role="button">Get Lit</a>
+            </div>
+          </div>
         </div>
-        <div class="card-body">
-          <h4 class="card-title">Very soon</h4>
-          <p class="card-text">Sooner than you think.</p>
+
+        <div class="col-lg-6">
+          <div class="card">
+            <h4 class="card-header">Synch</h4>
+            <div class="card-body">
+              <p class="card-text">A music library syncing application I developed back when I still used my iPod shuffle.</p>
+              <a class="btn btn-sm btn-success" href="https://github.com/nourhkhattab/Synch-Local" role="button">Sync</a>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
+
+      <footer class="footer">
+        <p>Last Updated Sept 2017</p>
+      </footer>
+
+    </div> <!-- /container -->
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
